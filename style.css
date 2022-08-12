@@ -1,60 +1,39 @@
-/* this is a comment */
 * {
   font-family: arial;
 }
 
 body {
-  background-color: aqua;
+  background-color: white;
   color: black;
   font-size: 20px;
-  /* background-image:url(); */
 }
 
 h1 {
-  background-color:#FFFFFF;
   color: red;
-  font-size: large;
 }
 
 h2 {
-  background-color:#FFFFFF;
-  color: orange;
-}
-
-h3 {
-  background-color:#FFFFFF;
-  color: yellow;
-}
-
-h4 {
-  background-color:#FFFFFF;
   color: green;
 }
 
-h5 {
-  background-color:#FFFFFF;
+h3 {
   color: blue;
 }
 
+h4 {
+  color: orange;
+}
+
+h5 {
+  color: yellow;
+}
+
 h6 {
-  background-color:#FFFFFF;
   color: purple;
 }
 
 p {
-  font-weight:bold;
-}
-
-a {
-  text-decoration:no-underline;
-}
-
-/* 
-border-width:10px 1px 5px 20px;  
-list-style-type: square;  
-*/
-div p {
-  font-size: 10px;
+  color: black;
 }
 
 .box {
