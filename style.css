@@ -11,6 +11,34 @@
   background-size: cover;
   background-position: center;
 }
+.banner2{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("./Final Post Images/SJSU.png");
+  background-size: cover;
+  background-position: center;
+}
+.banner3{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("./Final Post Images/Me.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.banner4{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("./Final Post Images/Me.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.banner5{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("./Final Post Images/Me.jpg");
+  background-size: cover;
+  background-position: center;
+}
 /*nav top right*/
 .navbar{
   width: 85%;
