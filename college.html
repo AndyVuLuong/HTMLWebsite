@@ -1,90 +1,317 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css" />
+<html>
+  <head>
     <title>College</title>
-</head>
-<body>
-  <header>
-    <div class="banner2">
-      <div class="navbar">
-        <img src="./Final Post Images/logo-transparent-png.png" class="logo" />
-        <ul>
-          <li><a href="college.html" target="_blank">College</a></li>
-          <li><a href="hobbies.html" target="_blank">Hobbies</a></li>
-          <li><a href="work.html" target="_blank">Work</a></li>
-          <li><a href="social.html" target="_blank">Social</a></li>
-          <li><a href="contact.html" target="_blank">Contact</a></li>
-        </ul>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="javascript.js" type="text/javascript"></script>
+  </head>
+  
+  <body>
+    <header> 
+      <div class="banner2">
+        <nav class="navbar">
+          <a href="homepage.html"><img src="./Images/logo.png" class="logo" /></a>
+          <ul>
+            <li><a href="college.html">College</a></li>
+            <li><a href="hobbies.html">Hobbies</a></li>
+            <li><a href="work.html">Work</a></li>
+            <li><a href="social.html">Social</a></lƒi>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
       </div>
     </header>
+
   <main>
     <div class="content">
-      <h1>My Personal Website</h1>
+      <h1>College</h1>
       <p>
-        Everything about me I have put into this site. I want to be able to create 
-        a website that I can be able to sum up my life and learn about web development. Enjoy!
+        I went to San Jose State University from August 2019 to December 2022. Here are all the important courses I took
+        and my experience with each of class.
       </p>
-    <div>
-      <button type="button"><span></span><a href="#jump1" >Overview</a></button>
-      <button type="button"><span></span><a href="#jump2">Video Introduction</a></button>
+        <button type="button"><span></span><a href="#jump1">Courses</a></button>
+        <button type="button"><span></span><a href="#jump2">Clubs</a></button>
     </div>
-  </div>
+
+    <article id="collegeInfo">
     <h1>College: <a href="http://sjsu.edu" target="_blank">San Jose State University</a></h1>
     <h2>Major: Computer Science</h2>
-    <h3>
-      Courses</h3>
-      <p>
-        The main courses for Computer Science are: 
+    <div class="Courses" id="jump1"><h3>Courses</h3></div>
+      <p>The main courses for Computer Science are:</p>
+      <ol>
+        <li>CS 146 - Data Structures and Algorithms</li>
+        <table border="1" align="left">  
+          <tr>
+            <th>Semester</th>
+            <th>Professor</th>
+            <th>Grade</th>
+            <th>Github</th>
+          </tr>
+          <tr>
+            <td>Fall 2020</td>
+            <td>Nada Attar</td>
+            <td>B+</td>
+            <td><a href="https://github.com/AndyVuLuong/CS-146-Data-Structures-and-Algorithms" target="_blank">CS 146 GitHub</a></td>
+          </tr>
+        </table>
+        <br><br><br>
+          <ul>
+            <li><p>Overview: Implementations of advanced tree structures, priority queues, heaps, directed and undirected graphs. Advanced searching and sorting (radix sort, heapsort, merge sort, and quicksort). Design and analysis of data structures and algorithms. Divide-and-conquer, greedy, and dynamic programming algorithm design techniques.
+              It introduces data structures like LinekdList, Hashmap, and Queue and alogirthms
+            like searches, sorts, and trees.
+            </p></li>
+            <li>Anecdote: This is the first class you take once you finish lower division courses, specifically CS 46B. Many professors
+            taught this course.</li>
+          </ul><br>
+
+        <li>CS 147 - Computer Architecture</li>
+        <table border="1" align="left">  
+          <tr>
+            <th>Semester</th>
+            <th>Professor</th>
+            <th>Grade</th>
+            <th>Github</th>
+          </tr>
+          <tr>
+            <td>Fall 2021</td>
+            <td>Kaushik Patra</td>
+            <td>B+</td>
+            <td><a href="https://github.com/AndyVuLuong/CS-147-Computer-Architecture" target="_blank">CS 147 GitHub</a></td>
+          </tr>
+        </table>
+        <br><br><br>
         <ul>
-      <li>CS 146 - Data Structures and Algorithms <p>This is the first class you take once you finish CS 46B. Many professors
-        taught this course, and it introduces data structures like LinekdList, Hashmap, and Queue and alogirthms
-        like searches, sorts, and trees. <br>
-        <a href="https://github.com/AndyVuLuong/CS-146-Data-Structures-and-Algorithms" target="_blank">CS 146 GitHub</a>
-      </p></li>
-      <li>CS 147 - Computer Architecture <p>I took this class at Mission College. <br> <a href="https://github.com/AndyVuLuong/CS-147-Computer-Architecture" target="_blank">CS 147 GitHub</a>
-      </p></li>
-      <li>CS 149 - Operating Systems <p><a href="https://github.com/AndyVuLuong/CS-149-Operating-Systems" target="_blank">CS 149 GitHub</a></p></li>
-      <li>CS 151 - Object-Oriented Design <p><a href="https://github.com/AndyVuLuong/CS-151-Object-Oriented-Design" target="_blank">CS 151 GitHub</a></p> </li>
-      <li>CS 152 - Programming Paradigms <p>I was most confused in this class becaues it introduces various languages that you
-        probably wouldn't use ever like Lex, Yac, and Prolog. In this class, <br> <a href="https://github.com/AndyVuLuong/CS-152-Programming-Paradigms" target="_blank">CS 152 GitHub</a>
-      </p></li>
-      <li>CS 154 - Formal Languages and Computability 
-        <p>This class is the harder version of Discrete Math. My professor was David Taylor, who decided that your grade is only determined by exams as any homework and quizzes are supposed
-          to help prepare you for the exam. I think this class was the hardest as it's very abstract but the overall percentage to pass 
-          is around 50% and he curves enough. <br> <a href="https://github.com/AndyVuLuong/CS-154-Formal-Languages-and-Computability" target="_blank">CS 154 GitHub</a>
-        </p></li>
-      <li>CS 157A - Introduction to Database Management Systems <p><a href="https://github.com/AndyVuLuong/CS-157A-Introduction-to-Database-Management-Systems" target="_blank">CS 157A GitHub</a></p> </li>
-      <li>CS 160 - Software Engineering <p>I'm currently taking this course in my last semester of college. <br> <a href="https://github.com/AndyVuLuong/CS-160-Software-Engineering" target="_blank">CS 160 GitHub</a></p></li>
-      </ul>
-      </p>
-      <p>
-        Other courses I would like to hightlight are:
+          <li><p>Overview: Introduction to the basic concepts of computer hardware structure and design, including processors and arithmetic logic units, pipelining, and memory hierarchy.
+            Hardware Description Languages, Data Representation in Computer Hardware, Computer Arithmetic, Memory Organization, Control Unit Operation and Implementation, Instruction Formats, Pipelining and Vector Processing, Multiprocessing, and RISC Architecture and Principles.
+          </p> </li>
+          <li>Anecdote: I took CS 47 in at Mission College. It has the same professor.</li>
+        </ul><br>
+
+        <li>CS 149 - Operating Systems</li>
+        <table border="1" align="left">  
+          <tr>
+            <th>Semester</th>
+            <th>Professor</th>
+            <th>Grade</th>
+            <th>Github</th>
+          </tr>
+          <tr>
+            <td>Spring 2021</td>
+            <td>Faramarz Mortezaie</td>
+            <td>B+</td>
+            <td><a href="https://github.com/AndyVuLuong/CS-149-Operating-Systems" target="_blank">CS 149 GitHub</a></td>
+          </tr>
+        </table>
+        <br><br><br>
+        <ul> 
+          <li>Overview: Fundamentals: Contiguous and non-contiguous memory management; processor scheduling and interrupts; concurrent, mutually exclusive, synchronized and deadlocked processes; files. Substantial programming project required. </li>
+          <li>Anecdote: I took this professor again.</li>
+          
+        </ul><br>
+
+
+        <li>CS 151 - Object-Oriented Design</li>
+        <table border="1" align="left">  
+          <tr>
+            <th>Semester</th>
+            <th>Professor</th>
+            <th>Grade</th>
+            <th>Github</th>
+          </tr>
+          <tr>
+            <td>Spring 2021</td>
+            <td>Yulia Newton</td>
+            <td>A+</td>
+            <td><a href="https://github.com/AndyVuLuong/CS-151-Object-Oriented-Design">CS 151 Github</a></td>
+          </tr>
+        </table>
+        <br><br><br>
+        <ul>
+          <li><p>Design of classes and interfaces. Value and reference semantics. Object-oriented design methodologies and notations. Design patterns. Reflection and serialization. Exception handling. Graphical user interface programming. Frameworks and components. Multithreading. Required team-based programming assignment. Prerequisite: MATH 42, CS 46B, and CS 49J (or equivalent knowledge of Java) (with a grade of "C-" or better in each); Computer Science, Applied and Computational Math or Software Engineering majors only; or instructor consent.
+            Understand fundamentals of object-oriented design and programming in Java; be aware of various methodologies and principles in software design and development; have ability to design, implement, and document an application using best practices.
+          </p>
+          </li>
+          <li>Anecdote:</li>
+        </ul><br>
+
+        <li>CS 152 - Programming Paradigms</li>
+        <table border="1" align="left">  
+          <tr>
+            <th>Semester</th>
+            <th>Professor</th>
+            <th>Grade</th>
+            <th>Github</th>
+          </tr>
+          <tr>
+            <td>Fall 2021</td>
+            <td>Chris Pollett</td>
+            <td>C+</td>
+            <td><a href="https://github.com/AndyVuLuong/CS-152-Programming-Paradigms" target="_blank">CS 152 GitHub</a></td>
+          </tr>
+        </table>
+        <br><br><br>
+        <ul>
+          <li>Overview: First from the catalog: Programming language syntax and semantics. Data types and type checking. Scope, bindings, and environments. Functional and logic programming paradigms, and comparison to other paradigms. Extensive coverage of a functional language. At a high level, a programming language is a formal language for telling a computer to do something. This class studies the design and implementation of programming languages. To formalize a programming language, we need to say what strings of characters constitute a valid program. This is called the syntax of the language. We will look at techniques to specify syntax using regular expressions and context free grammars. The next step in specifying a language is choosing what the core building blocks for a program should be and what those building blocks should mean. Semantics is a fancy word for meaning. To specify language semantics for almost any programming language, you need to be able to say how variables work. So we will look at how to specify the space of
+            possible values a variable is allowed to have (its type), how assignment of variables to values works (binding), how to check if value is bound to variable is of the correct type (type checking), and what variables are visible to the running program at any given point in its execution (visibility and environment). Beyond variables, we will look historically at what building blocks that have been considered in the past to create a programming language and what were their pro's and con's. Two important types of programming languages functional languages and logic programming languages will be discussed. Finally, we describe what it takes to write a program that takes as input a string in programming language and then outputs a sequence of low level instructions for the computer (machine code). I.e., a compiler or interpreter. We will consider top-down and bottom-up compilers/interpreters with an emphasis on the latter.
+          </li>
+          <li>Anecdote: I was most confused in this class becaues it introduces various languages that you
+            probably wouldn't use ever like Lex, Yac, and Prolog. In this class,</li>
+        </ul><br>
+
+        <li>CS 154 Formal Languages and Computability</li>
+        <table border="1" align="left">  
+          <tr>
+            <th>Semester</th>
+            <th>Professor</th>
+            <th>Grade</th>
+            <th>Github</th>
+          </tr>
+          <tr>
+            <td>Fall 2021</td>
+            <td>David Taylor</td>
+            <td>C</td>
+            <td><a href="https://github.com/AndyVuLuong/CS-154-Formal-Languages-and-Computability" target="_blank">CS 154 GitHub</a></td>
+          </tr>
+        </table>
+        <br><br><br>
+        <ul>
+          <li>Overview: To introduce students to the basic concepts of theoretical computer science, and to show them that many of the origins of these questions came from some very practical considerations.
+            Topics covered will include context-free grammars, finite automata, minimization, regular expressions, Kleene's Theorem, pumping lemmas, closure properties, nonequivalence of deterministic and non-deterministic PDA's, Turing machines and decidable and undecidable problems.</li>
+          <li>Anecdote: This class is the harder version of Discrete Math. My professor was David Taylor, who decided that your grade is only determined by exams as any homework and quizzes are supposed
+            to help prepare you for the exam. I think this class was the hardest as it's very abstract but the overall percentage to pass </li>
+        </ul><br>
+
+        <li>CS 157A Introduction to Database Management Systems</li>
+        <table border="1" align="left">  
+          <tr>
+            <th>Semester</th>
+            <th>Professor</th>
+            <th>Grade</th>
+            <th>Github</th>
+          </tr>
+          <tr>
+            <td>Spring 2022</td>
+            <td>Frank Butt</td>
+            <td>A-</td>
+            <td><a href="https://github.com/AndyVuLuong/CS-157A-Introduction-to-Database-Management-Systems">CS 157A Github</a></td>
+          </tr>
+        </table>
+        <br><br><br>
+        <ul>
+          <li>Overview: SQL, Docker, Join</li>
+          <li>Anecdote: While other people didn't like Butt, I did (lol). I had my friend Jordan Mai in this class and a fellow CS mate Charlotte.
+            Midway through the semester we switched classes and I remembered doing these long assignments and taking forever to get docker to work. 
+            I helped out this girl named Jennifer. I was stressing out on the final but ended up with a good score.
+          </li>
+        </ul><br>
+
+        <li>CS 160 - Software Engineering</li>
+        <table border="1" align="left">  
+          <tr>
+            <th>Semester</th>
+            <th>Professor</th>
+            <th>Grade</th>
+            <th>Github</th>
+          </tr>
+          <tr>
+            <td>Fall 2022</td>
+            <td>Chris Tseng</td>
+            <td>A</td>
+            <td><a href="https://github.com/AndyVuLuong/CS-160-Software-Engineering" target="_blank">CS 160 GitHub</a></td>
+          </tr>
+        </table>
+        <br><br><br>
+        <ul>
+          <li>Overview: Software engineering principles, requirements elicitation and analysis, design, configuration management, quality control, project planning, social and ethical issues. Required team-based software development, including written requirements specification and design documentation, oral presentation, and tool use.</li>
+          <li>Anecdote: I'm currently taking this course in my last semester of college.</li>
+        </ul><br>
+
+        <li>CS 153</li>
+        <table border="1" align="left">  
+          <tr>
+            <th>Semester</th>
+            <th>Professor</th>
+            <th>Grade</th>
+            <th>Github</th>
+          </tr>
+          <tr>
+            <td>Fall 2022</td>
+            <td>Ron Mak</td>
+            <td>B</td>
+            <td><a href="">CS 153 Github In Progress</a></td>
+          </tr>
+        </table>
+        <br><br><br>
+        <ul>
+          <li>Overview: Theoretical aspects of compiler design, including parsing context free languages, lexical
+            analysis, translation specification and machine-independent code generation. Programming
+            projects to demonstrate design topics.</li>
+          <li>Anecdote: Thank you to my partners April, Dominic, and Andrew for carrying my on the group project.</li>
+        </ul><br>
+
+        <li>CS 157C</li>
+        <table border="1" align="left">  
+          <tr>
+            <th>Semester</th>
+            <th>Professor</th>
+            <th>Grade</th>
+            <th>Github</th>
+          </tr>
+          <tr>
+            <td>Fall 2022</td>
+            <td>Suneuy Kim</td>
+            <td>C+</td>
+            <td><a href="">CS 157C Github In Progress</a></td>
+          </tr>
+        </table>
+        <br><br><br>
+        <ul>
+          <li>Overview: NoSQL Data Models: Key-Value, Wide-Column, Document, and Graph Stores. CAP Theorem. Distribution Models. Current NoSQL Databases: Configuration and Deployment, CRUD operations, Indexing, Replication, and Sharding. Public Data Sets. API Coding and Application Development. NoSQL in the Cloud. Team Project.</li>
+          <li>Anecdote: I felt bad for the person that carried the group project</li>
+          <li></li>
+        </ul><br>
+      </ol>
+
+        <h2>Other courses I would like to hightlight are: </h2>
+        <h3>Computer Science Electives</h3>
         <ul>
           <li>CS 46B - Introduction to Data Structures<p>You need to pass this class in order to sign up to most of the main courses above. Only one professor taught this class so 
             basically every students in your grade was either in that class or the other. I'm glad that it included a useful project that students can put on their resume.
             <br> <a href="https://github.com/AndyVuLuong/CS-46B-Introduction-to-Data-Structures" target="_blank">CS 46B GitHub</a>
           </p></li>
           <li>CS 116A - Introduction to Computer Graphics <p>Stuff <br><a href="https://github.com/AndyVuLuong/CS-116A-Introduction-to-Computer-Graphics" target="_blank">CS 116A GitHub</a></li>
-          <li>CS 156 - Introduction to Artificial Intelligence<p> This class used python and either Jupiter Notebook or Google Colab to run .ipynb machine learning.<br><a href="https://github.com/AndyVuLuong/CS-156-Introduction-to-Artificial-Intelligence" target="_blank">CS 156 GitHub</a></p></li>
+          <li>CS 156 - Introduction to Artificial Intelligence
+            <p> This class used python and either Jupiter Notebook or Google Colab to run .ipynb machine learning. <br>
+              <a href="https://github.com/AndyVuLuong/CS-156-Introduction-to-Artificial-Intelligence" target="_blank">CS 156 GitHub</a>
+            </p>
+          </li>
+        </ul>
+          
+        <h3>Math</h3>
+        <ul>
+          <li>MATH 31 - Calculus II</li>
           <li>MATH 42 - Discrete Mathematics</li>
+          <li>MATH 39 - Linear Algebra</li>
+          <li>MATH 161A - Applied Probability and Statistics </li>
+          <li>MATH 42 - Discrete Mathematics</li>
+        </ul>
+
+        <h3>General Electives</h3>
+        <ul>
           <li>COMM 20 - Public Speaking</li>
           <li>JPN 1A - Elementary Japanese</li>
           <li>GEOL 4L - Earth Systems Lab</li>
-        
-        </ul>
-      </p>
+        </ul>  
+    </article>
 
-    <h2>Clubs</h2>
+    <div class="clubs" id="jump2">
+      <h2>Clubs</h2>
     <h3>San Jose Dragon Boat</h3>
     <p>
-      I am currently the Treasurer for SJDB. I joined in fall 2021 and paddled
-      before back in high school (2017-2019)
+      I was the Treasurer for San Jose Dragon Boat from June 2022 to December 2022.
+      I joined the team back in fall 2021 and had expeience back in high school (2017-2019).
     </p>
     <img
-      src="./Final Post Images/Dragon Boat.png"
+      src="./Images/Dragon Boat.png"
       height="500px"
       width="auto"
       alt="Dragon Boat"
@@ -94,13 +321,15 @@
     <p>
       I am a general member of VSA. I am part of the Yellow Family and joined
       in fall 2021.
-    </p>
-    <img
-      src="./Final Post Images/College & VSA.png"
-      height="500px"
-      width="auto"
-      alt="College & VSA"
-    />
+      </p>
+          <img
+          src="./Images/College & VSA.png"
+          height="500px"
+          width="auto"
+          alt="College & VSA">
+  </div>
   </main>
-</body>
+
+  <footer id="trademark"><script>trademark();</script></footer>
+  </body>
 </html>

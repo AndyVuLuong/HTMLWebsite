@@ -1,57 +1,54 @@
 * {
-  margin: 0;
-  padding: 0;
-  font-family: arial;   
+  font-family: arial;
+  margin: auto;
 }
+
 /*background image*/
 .banner{
-  width: 100%;
   height: 100vh;
-  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("./Final Post Images/Me.jpg");
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("./Images/Me.jpg");
   background-size: cover;
   background-position: center;
 }
-.banner2{
-  width: 100%;
+
+.banner2 {
   height: 100vh;
-  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("./Final Post Images/SJSU.png");
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("./Images/SJSU.png");
   background-size: cover;
   background-position: center;
 }
 .banner3{
-  width: 100%;
   height: 100vh;
-  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("./Final Post Images/Me.jpg");
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("./Images/Me.jpg");
   background-size: cover;
   background-position: center;
 }
 .banner4{
-  width: 100%;
   height: 100vh;
-  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("./Final Post Images/Me.jpg");
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("./Images/Me.jpg");
   background-size: cover;
   background-position: center;
 }
 .banner5{
-  width: 100%;
   height: 100vh;
-  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("./Final Post Images/Me.jpg");
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("./Images/Me.jpg");
   background-size: cover;
   background-position: center;
 }
+
+.logo{
+  width: 150px;
+}
+
 /*nav top right*/
 .navbar{
-  width: 85%;
-  margin: auto;
+  height: 12vh;
+  background-color: black;
+  width: 100%;
   padding: 35px 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-/*logo*/
-.logo{
-  width: 150px;
-  cursor: pointer;
 }
 /*spaces out nav bar categories*/
 .navbar ul li{
@@ -90,6 +87,8 @@
   text-align: center;
   color: #fff;
 }
+
+
 .content h1 {
   font-size: 70px;
   margin-top: 80px;
@@ -99,6 +98,7 @@
   font-weight: 100;
   line-height: 25px;
 }
+
 button{
   width: 200px;
   padding: 15px 0;
@@ -135,61 +135,127 @@ button a {
   text-decoration: none;
 }
 
-.overview, .video{
-  background-image: url("./Final\ Post\ Images/twigs.jpg");
-  
+.overview_and_video {
+  background-image: url("./Images/twigs.jpg");
+  background-repeat: no-repeat;
 }
+
+/*
+.overview, .video{
+  background-image: url("./Images/twigs.jpg");
+  background-repeat: no-repeat;
+}
+*/
+
 
 .box {
   margin: auto;
-  background-color: white;
+  background-image: linear-gradient(green, yellow);
   width: 60%;
   border: 5px solid black;
   padding: 0x;
   text-align: center;
 }
 
-/*
-body {
+.box_wide{
+  margin: auto;
   background-color: white;
+  width: 100%;
+  border: 5px solid black;
+  padding: 0x;
+  text-align: center;
+}
+
+.boxside {
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+
+college.html {
+  background-image: linear-gradient(blue, red);
+}
+
+#collegeInfo {
+  background-image: linear-gradient(white, red);
+}
+
+.clubs {
+  background-image: linear-gradient(purple, brown);
+}
+
+.line {
+  border-bottom: 10px solid black;
+  width: 100%;
+}
+
+.anime {
+  background-image: linear-gradient(#ffafbd, #ffc3a0);
+}
+
+.game {
+  background-image: linear-gradient(#2193b0, #6dd5ed);
+}
+
+aside {
+  width: 30%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+  background-color: lightgray;
+}
+
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+button, .black_font {
   color: black;
-  font-size: 20px;
 }
 
-h1 {
-  color: red;
+.exercise {
+  background-color: pink;
 }
 
-h2 {
-  color: green;
+/* W3Schools */
+.slidecontainer {
+  width: 100%; /* Width of the outside container */
 }
-
-h3 {
-  color: blue;
+/* The slider itself */
+.slider {
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  width: 100%; /* Full-width */
+  height: 25px; /* Specified height */
+  background: #d3d3d3; /* Grey background */
+  outline: none; /* Remove outline */
+  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+  transition: opacity .2s;
 }
-
-h4 {
-  color: orange;
+/* Mouse-over effects */
+.slider:hover {
+  opacity: 1; /* Fully shown on mouse-over */
 }
-
-h5 {
-  color: yellow;
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #04AA6D; /* Green background */
+  cursor: pointer; /* Cursor on hover */
 }
-
-h6 {
-  color: purple;
+.slider::-moz-range-thumb {
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #04AA6D; /* Green background */
+  cursor: pointer; /* Cursor on hover */
 }
-
-p {
-  color: black;
-}
-
-.box {
-  height: 100px;
-  width: 10%;
-  padding: 1em;
-  margin: 2rem;
-  border: 10px solid black;
-  background-color: red;
-}
-*/
