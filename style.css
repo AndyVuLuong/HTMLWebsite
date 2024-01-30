@@ -174,11 +174,13 @@ button a {
 }
 
 college.html {
-  background-image: linear-gradient(blue, red);
+  /* background-image: linear-gradient(blue, red); */
+  background-color: blue;
 }
 
 #collegeInfo {
-  background-image: linear-gradient(white, red);
+  /* background-image: linear-gradient(white, red); */
+  background-color: white;
 }
 
 .clubs {
